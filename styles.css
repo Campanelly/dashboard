@@ -58,12 +58,28 @@ header{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     background-color: aqua;
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    padding: 16px;
+}
+.upper{
+  grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: 1fr 9fr 1fr 1fr 1fr 3fr;
+  grid-template-rows: 1fr;
+}
+.downer{
+  grid-row: 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 nav{
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     background-color: blue;
     display: grid;
+    padding:16px;
 }
 .navLinks{
   display:grid;
