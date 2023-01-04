@@ -29,6 +29,8 @@ input, button, textarea, select {
 p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
 }
+
+
 ul , ol {
   list-style-type: none;
   padding:0;
@@ -63,10 +65,10 @@ nav{
     background-color: blue;
     display: grid;
 }
-.topIcons, .topLinks{
+.navLinks{
   display:grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: repeat(6,1fr);
+  grid-template-rows: repeat(18,1fr);
 }
 
 li{
